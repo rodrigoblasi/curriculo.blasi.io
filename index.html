@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Currículo de Rodrigo Blasi</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Blasi</a>
+
+            <div class="div nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-heart nav__icon'></i>
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                            Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-open nav__icon'></i>
+                            Formação
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>
+                            Experiência
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="div nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        
+        <!-- Todos os elementos dessa div são para gerar o pdf -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+
+                <!-- Home -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profile.jpg" alt="Imagem de perfil" class="home__img">
+
+                            <h1 class="home__title">
+                                <b>Rodrigo Blasi</b>
+                                <h3 class="home__profession">SYSADMIN Pleno</h3>
+                            </h1>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bxs-face home__icon'></i>
+                                <i>35 anos</i>
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxs-map-pin home__icon'></i>
+                                Campo Bom, RS
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-male-female home__icon'></i>
+                                Casado e com filhos
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxs-envelope home__icon'></i>
+                                rodrigo@blasi.io
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxs-phone home__icon'></i>
+                                (51) 99189-5537
+                            </span>
+
+                        </div>
+                    </div>
+                    <!-- Botão de tema light/dark -->
+                    <i class='bx bx-moon change-theme' title= "Tema claro/escuro" id= "theme-button"></i>
+
+                    <!-- Botão para gerar o pdf -->
+                    <i class='bx bx-download generate-pdf' title= "Baixar Currículo em PDF" id= "resume-button"></i>
+
+                </section>
+
+                <!-- Social -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+
+                        <a href="https://github.com/rodrigoblasi/" target= "_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i>
+                            rodrigoblasi
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/rodrigoblasi/" target= "_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>
+                            rodrigoblasi
+                        </a>
+
+                        <a href="https://www.twitter.com/rodrigoblasi/" target= "_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon'></i>
+                            @rodrigoblasi
+                        </a>
+
+                    </div>
+                </section>
+                <!-- Educação -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formação</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                        <!--<div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>-->
+
+                            <div class="education__data bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bxs-graduation home__icon'></i>
+                                    Gestão em TI
+                                </span>
+                                <span class="education__studies">Unisul Virtual</span>
+                                <span class="education__year">2016</span>
+                            </div>
+                        </div>
+                </section>
+                <!-- Linguagens -->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Português | Nativo
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês | Intermediário
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Espanhol | Básico
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            
+
+            <div class="resume__right">
+                <!-- Perfil -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+                    <p class="profile__description">&nbsp;Profissional de tecnologia, graduado em Gestão de TI.<br/>&nbsp;Desde, exercendo várias posições no setor de suporte helpdesk. Com experiência em gestão de TI corporativa, administrando ambientes de alta disponibilidade. Calmo, organizado e resiliente.</p>
+                    <p class="profile__description_extra"><br/><b><i>Migrando de área e disponível para oportunidade como DevOps Júnior.</i></b></p>
+                </section>
+                <!-- Experiências -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiência</h2>
+                    <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+        
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title">SYSADMIN</h3>
+                                        <span class="experience__company">WIH GROUP - Sapiranga/RS - desde 2015</span>
+                                        <p class="experience__description">Atendimento à clientes com contratos de suporte em ambiente externo e remoto, atendimento como técnico interno em clientes. Administração de sistemas e ativos de ti. Gerenciamento de incidentes e atualizações de equipamentos e softwares. Gerenciamento de ambientes com servidores linux e windows</p>
+                                    </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Analista Helpdesk</h3>
+                                    <span class="experience__company">Lojas Paludo - Campo Bom/RS - (2012-2015) </span>
+                                    <p class="experience__description">Atendimento de suporte em informática, suporte no sistema ERP, rede Windows, documentação de processos.</p>
+                                </div>
+                            </div>                    
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Analista Helpdesk</h3>
+                                </h3>
+                                    <span class="experience__company">Artecola Indústrias Químicas - Campo Bom/RS - (2007-2012) </span>
+                                    <p class="experience__description">Tratamento de chamados internos de TI, telefonia fixa e móvel, implantação de projetos, manutenção e uso de sistema de emails (Microsoft Exchange 2010) e ERP (SAP), monitoramento de rede, documentação de processos.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Instrutor de Informática</h3>
+                                </h3>
+                                    <span class="experience__company">Informatize, Escola Profissionalizante - Campo Bom/RS - (2005-2007) </span>
+                                    <p class="experience__description">Ministrar Cursos de informática básica (Windows, Word, Excel, PowerPoint, Internet), montagem e manutenção básica de computadores (instalação de sistemas operacionais, hardware, aplicativos), ministrar cursos de redes de computadores (active directory, filesystems, permissões)</p>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                <!--HABILIDADES-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle">Windows Server<br/>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">Zabbix<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            
+                            <li class="skills__name">
+                                <span class="skills__circle">Windows Deploy<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">MS Excel<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle">Linux<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">Vagrant<br/>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle">Estações Windows<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">Kerio Firewall<br/>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                        </ul>
+                        <ul class="skills__data>
+                            <li class="skills__name">
+                                <span class="skills__circle">Docker<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle">Powershell<br/>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle">Active Directory<br/>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i>
+                                    <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle">Terraform<br/>
+                                <i class='bx bxs-square skills__icon'></i></span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!-- Interesses -->
+                <section class="interests section">
+                    <h2 class="section-title">Interesses</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-bot interests__icon'></i>
+                            <span class="interests__name">Automação</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxl-docker interests__icon'></i>
+                            <span class="interests__name">Docker</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-joystick interests__icon'></i>
+                            <span class="interests__name">Games</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxl-bitcoin interests__icon'></i>
+                            <span class="interests__name">Bitcoin</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-library interests__icon'></i>
+                            <span class="interests__name">História e Geografia</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-movie interests__icon'></i>
+                            <span class="interests__name">Cinema</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Rolar a tela pra cima -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up-circle scrolltop__icon'></i>
+    </a>
+
+    <!-- HTML/PDF -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
