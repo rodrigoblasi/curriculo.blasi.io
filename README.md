@@ -6,4 +6,5 @@ Projeto criado afim de manter um local único e atualizado.
 *   gerador de PDF
 
 baseado no código de:  
-[https://github.com/everson-chaves/resume](https://github.com/everson-chaves/resume)
+[https://github.com/everson-chaves/resume](https://github.com/everson-chaves/resume)  
+https://youtu.be/Et-uhdY2a2U
